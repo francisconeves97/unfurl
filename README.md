@@ -1,6 +1,14 @@
+Taken from: https://github.com/tomnomnom/hacks/blob/master/unfurl/README.mkd for ease of installation
+
 # unfurl
 
 Pull out bits of URLs provided on `stdin`
+
+Install:
+
+```
+▶ go install github.com/francisconeves97/unfurl@latest
+```
 
 ## Help
 
@@ -35,5 +43,3 @@ Examples:
   cat urls.txt | unfurl keys
   cat urls.txt | unfurl format %s://%d%p?%q
 ```
-
-Taken from: https://github.com/tomnomnom/hacks/blob/master/unfurl/README.mkd for ease of installation
